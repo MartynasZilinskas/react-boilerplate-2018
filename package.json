@@ -1,0 +1,22 @@
+{
+    "name": "react-boilerplate",
+    "private": true,
+    "scripts": {
+        "test": "tsc -p . --noEmit && tslint -p .",
+        "build": "webpack --config webpack.config.js",
+        "build:prod": "npm run build -- --mode=production",
+        "watch": "webpack-dev-server"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@simplrjs/webpack": "0.1.0-alpha.8",
+        "@types/webpack": "^4.4.10",
+        "simplr-tslint": "^1.0.0-alpha.14",
+        "tslint": "^5.11.0",
+        "tslint-language-service": "^0.9.9",
+        "typescript": "^3.0.1",
+        "webpack": "^4.16.5",
+        "webpack-cli": "^3.1.0",
+        "webpack-dev-server": "^3.1.5"
+    }
+}
